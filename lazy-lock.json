@@ -16,6 +16,7 @@
   "lir.nvim": { "branch": "master", "commit": "1aa871f20637eccc4e1e26b0fbcf9aafc9b6caf7" },
   "lsp-progress.nvim": { "branch": "main", "commit": "83b16a9791fa788c0a7ca90374118ed15d2c09ed" },
   "lsp-rooter.nvim": { "branch": "main", "commit": "7c83364f5a40db6c91f322fb148a99be8cec7b91" },
+  "lsp-status.nvim": { "branch": "master", "commit": "54f48eb5017632d81d0fd40112065f1d062d0629" },
   "lsp_signature.nvim": { "branch": "master", "commit": "c6aeb2f1d2538bbdfdaab1664d9d4c3c75aa9db8" },
   "lualine.nvim": { "branch": "master", "commit": "84ffb80e452d95e2c46fa29a98ea11a240f7843e" },
   "lunar.nvim": { "branch": "master", "commit": "08bbc93b96ad698d22fc2aa01805786bcedc34b9" },
