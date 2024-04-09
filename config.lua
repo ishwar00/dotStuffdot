@@ -16,6 +16,9 @@ formatter.setup({
 	{
 		name = "stylua",
 	},
+	{
+		name = "black",
+	},
 })
 
 -- code folding treesitter folds
