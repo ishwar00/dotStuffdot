@@ -37,6 +37,8 @@ vim.opt.expandtab = true
 lvim.builtin.nvimtree.setup.view.side = "right"
 lvim.builtin.project.manual_mode = true
 
+lvim.builtin.telescope.defaults.layout_config.width = 0.75
+
 ------------------------------------------------------- Illuminate
 -- https://ansidev.xyz/posts/2023-04-25-how-to-change-the-highlight-style-using-vim-illuminate
 -- Illuminate highlight word instead of underline
@@ -103,7 +105,7 @@ lvim.builtin.lualine.sections.lualine_x = {
 		"diagnostics",
 		always_visible = false, -- Show diagnostics even if there are none.
 	},
-    "searchcount",
+	"searchcount",
 	"filename",
 }
 lvim.builtin.lualine.sections.lualine_c = {
@@ -131,7 +133,7 @@ autocmd("TextYankPost", {
 })
 
 ----------------------------------------------- colorscheme
--- vim.g.tundra_biome = 'arctic' -- arctic or jungle
+vim.g.tundra_biome = 'arctic' -- arctic or jungle
 vim.opt.background = "dark"
 lvim.colorscheme = "noirbuddy"
 ----------------------------------------------- colorscheme
